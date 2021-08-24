@@ -1,0 +1,276 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  padding: 53px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#news__category .category__title {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+#news__category .category__title h3 {
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 2px solid #4258fe;
+  font-family: Averta;
+  text-transform: uppercase;
+}
+
+#news__category .category__title h3 span {
+  background-color: #4258fe;
+  color: #ffffff;
+  padding: 8px 15px;
+  line-height: 24px;
+  position: relative;
+}
+
+#news__category .category__title h3 span::after {
+  position: absolute;
+  content: " ";
+  width: auto;
+  height: auto;
+  bottom: -20px;
+  margin-left: -10px;
+  left: 50%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #4258fe rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+@font-face {
+  font-family: 'Averta';
+  src: url(/fonts/Averta-Black.ttf);
+  font-style: normal;
+}
+
+#news__category .main__category__title h3 {
+  border-bottom: 2px solid #00bdb3;
+}
+
+#news__category .main__category__title h3 span {
+  background-color: #00bdb3;
+}
+
+#news__category .main__category__title h3 span::after {
+  border-color: #00bdb3 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+#news__category .primary__category__title h3 {
+  border-bottom: 2px solid #9401d3;
+}
+
+#news__category .primary__category__title h3 span {
+  background-color: #9401d3;
+}
+
+#news__category .primary__category__title h3 span::after {
+  border-color: #9401d3 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+#news__category .news__content .post__thumb__full {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#news__category .news__content .post__thumb__full::before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  bottom: 0px;
+  left: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.85)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
+}
+
+#news__category .news__content .post__info {
+  padding: 25px;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  font-family: Averta;
+}
+
+#news__category .news__content .post__info__title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+#news__category .news__content .post__info__date {
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 8px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+#news__category .news__content .post__media {
+  font-family: Averta;
+}
+
+#news__category .news__content .post__media li:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+#news__category .news__content .post__media li .post__thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+}
+
+#news__category .news__content .post__media li .post__thumb a {
+  width: 110px;
+}
+
+#news__category .news__content .post__media li .post__thumb a img {
+  margin-right: 10px;
+  width: 100px;
+  height: 80px;
+}
+
+#news__category .news__content .post__media li .post__media__body .post__media__title {
+  font-size: 14px;
+  color: #1c1c1c;
+  line-height: 20px;
+  font-weight: 700;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+#news__category .news__content .post__media li .post__media__body .post__media__title:hover {
+  color: #4258fe;
+}
+
+#news__category .news__content .post__media li .post__media__body .post__info__date {
+  color: #888888;
+}
+/*# sourceMappingURL=stye.css.map */
