@@ -1,0 +1,37 @@
+SassStructure
+
+|– abstracts/
+| |– _variables.scss
+| |– _functions.scss
+| |– _mixins.scss
+| |– _colors.scss
+
+|– base/
+| |– _reset.scss
+| |– _classes.scss
+| |– _main.scss
+| |– _typography.scss
+
+|– components/
+| |– _buttons.scss
+| |– _carousel.scss
+| |– _slider.scss
+| |– _card.scss
+
+|– layout/
+| |– _navbar.scss
+| |– _grid.scss
+| |– _header.scss
+| |– _footer.scss
+| |– _menubar.scss
+
+|– pages/
+| |– _home.scss
+| |– _about.scss
+| |– _contact.scss
+| |– _advertise.scss
+| |– _writeforus.scss
+
+|– vendors/
+| |– _bootstrap.scss
+| |– _jquery.scss
