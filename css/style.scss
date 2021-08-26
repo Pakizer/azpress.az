@@ -1,0 +1,130 @@
+@import 'abstracts/varaibles.scss', 'abstracts/mixins.scss', 'base/reset.scss';
+body{
+    background-color: #fef0fd;
+}
+#news{
+    width: 800px;
+}
+.news-header{
+    .news-title{
+        border-bottom: $size6/3 $main-color1 solid;
+                span{
+                    background-color: $main-color1;
+                    padding: $size6 2*$size6;
+                    display: $d-inline;
+                    text-transform: $txt-big;
+                    font-size: $size18;
+             
+                        a{
+                            color: $main-color2;
+                                    }
+                    }
+                }
+            }
+
+.news-items{
+    width: $full;
+    display: $d-flex;
+    
+    .news-left{
+        margin-right: $size18;
+        width: $full/2;
+        background-color:$main-color2;
+        .news-bigImg{
+            width: $full;
+            padding-bottom: $size18;
+            a img{
+                width: $full;
+            }
+        }
+        .news-articles{
+            padding: 0px 3*$size5  $size5 ;
+
+            h3{
+                margin: $size0 !important;
+                font-weight: $font-weig-1;
+                a:hover{
+                    color: $main-color1;
+                }
+                a{
+                    font-size: $size16;
+                    color: $txt-color;
+                   
+                    span{
+                        color: $main-color1;
+                    }
+                    }
+            }
+            .news-time .news-timeItems a {
+                time:hover{
+                    color: $main-color1;
+                }
+                i {
+                    font-size: 2*$size5 ;
+                    color: $txt-small;
+                   }
+                   time {
+                    font-size: 2*$size6;
+                    color: $txt-small;
+                    padding-left: $size5;
+                   }
+            }
+               .news-text p{
+                font-size: $size14;
+            }
+        }
+    }
+         .camil{
+             width: 50%;
+             .camil2{
+                display: flex;
+               background-color: $main-color2;
+               margin-bottom: $size5;
+               .news-smallImg {
+                width: $full-33;
+               height: auto;
+               padding-right: $size6;
+            }
+             }
+         }
+         
+    
+     .news-smallImg a img {
+        width: $full;
+        height: $full;
+    }
+    .news-smallItems{
+        width: $full-67;
+      
+    }
+    .news-smallItems h3{
+        color: $txt-color;
+        width: $full;
+        margin: $size0;
+        font-size: $size16;
+        font-weight: $font-weig-1;
+    }
+    .news-smallItems h3 a:hover{
+        color: $main-color1;
+    }
+    .news-smallItems h3 a span{
+        color: $main-color1;
+       
+    }
+    .news-smalltimeItems a i {
+        font-size: 2*$size5 ;
+        color: $txt-small;
+       }
+       .news-smalltimeItems a time:hover{
+           color: $main-color1;
+       }
+       .news-smalltimeItems a time {
+        font-size: 2*$size5;
+        color: $txt-small;
+        padding-left: $size5;
+       }
+}
+
+
+
+
